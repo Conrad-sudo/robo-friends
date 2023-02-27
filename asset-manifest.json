@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Conrad-sudo/RoboFriends/static/css/main.bfeed57f.css",
-    "main.js": "/Conrad-sudo/RoboFriends/static/js/main.e564c056.js",
-    "static/js/787.ebaa048f.chunk.js": "/Conrad-sudo/RoboFriends/static/js/787.ebaa048f.chunk.js",
-    "static/media/SEGA.woff": "/Conrad-sudo/RoboFriends/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
-    "index.html": "/Conrad-sudo/RoboFriends/index.html",
-    "main.bfeed57f.css.map": "/Conrad-sudo/RoboFriends/static/css/main.bfeed57f.css.map",
-    "main.e564c056.js.map": "/Conrad-sudo/RoboFriends/static/js/main.e564c056.js.map",
-    "787.ebaa048f.chunk.js.map": "/Conrad-sudo/RoboFriends/static/js/787.ebaa048f.chunk.js.map"
+    "main.css": "/Conrad-sudo/robo-friends/static/css/main.923e8ea2.css",
+    "main.js": "/Conrad-sudo/robo-friends/static/js/main.c2bcd7e6.js",
+    "static/js/787.ebaa048f.chunk.js": "/Conrad-sudo/robo-friends/static/js/787.ebaa048f.chunk.js",
+    "static/media/SEGA.woff": "/Conrad-sudo/robo-friends/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/Conrad-sudo/robo-friends/index.html",
+    "main.923e8ea2.css.map": "/Conrad-sudo/robo-friends/static/css/main.923e8ea2.css.map",
+    "main.c2bcd7e6.js.map": "/Conrad-sudo/robo-friends/static/js/main.c2bcd7e6.js.map",
+    "787.ebaa048f.chunk.js.map": "/Conrad-sudo/robo-friends/static/js/787.ebaa048f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfeed57f.css",
-    "static/js/main.e564c056.js"
+    "static/css/main.923e8ea2.css",
+    "static/js/main.c2bcd7e6.js"
   ]
 }
