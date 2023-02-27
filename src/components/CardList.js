@@ -7,7 +7,7 @@ export default function CardList({robots}) {
 
     //creates an array of card components of all robot elements from the robots.js
     
-    if(true){ throw new Error("YEEEEESSSSS")}
+   
 
   return (
 
