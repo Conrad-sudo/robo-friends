@@ -3,17 +3,18 @@ import CardList from '../components/CardList'
 import Scroll from '../components/Scroll'
 import SearchBox from "../components/SearchBox"
 import "./App.css"
+import ErrorBoundry from '../components/ErrorBoundry'
 
 
 
-
+//declare a class called app which is parent component thats why it is declared as a class
 export default class App extends Component {
 
-    /*stae usually lives in the parent component
-     It sets the initial state of the app with an empty array*/
+    /*state usually lives in the parent component
+     The constructor sets the initial state of the app with an empty array*/
     constructor(){
 
-        super()
+        super() //this is neccessary if you want to use this.state
         this.state={
 
             robots: [],
@@ -69,7 +70,10 @@ export default class App extends Component {
                     <SearchBox searchChange={this.onSearchChange} />
 
                     <Scroll>
-                        <CardList robots={filteredRobots}/>
+                        <ErrorBoundry>
+                            <CardList robots={filteredRobots}/>
+                        </ErrorBoundry>
+                        
                     </Scroll>
                     
             

@@ -9,7 +9,7 @@ import App from "./containers/App"
 const root = ReactDOM.createRoot(document.getElementById('root')); //This fetches the div with ID root in the index.html file
 
 //this renders our custom components to the index.html file
-//this passes in a prop called robots which can be accessed CardList component
+
 root.render(
   <React.StrictMode>
     
